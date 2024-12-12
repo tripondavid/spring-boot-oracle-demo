@@ -8,9 +8,9 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
-import utils.converter.ManufacturerDtoConverter;
-import utils.dto.ManufacturerDto;
-import utils.dto.requests.AddManufacturerDto;
+import com.crud.oracle.demoapp.utils.converter.ManufacturerDtoConverter;
+import com.crud.oracle.demoapp.utils.dto.ManufacturerDto;
+import com.crud.oracle.demoapp.utils.dto.requests.AddManufacturerDto;
 
 import java.util.List;
 

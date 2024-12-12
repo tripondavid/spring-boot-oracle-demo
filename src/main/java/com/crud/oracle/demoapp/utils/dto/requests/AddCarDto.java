@@ -1,6 +1,6 @@
-package utils.dto.requests;
+package com.crud.oracle.demoapp.utils.dto.requests;
 
-import utils.dto.CarModelDto;
+import com.crud.oracle.demoapp.utils.dto.CarModelDto;
 
 public record AddCarDto(
         String vin,

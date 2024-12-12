@@ -1,4 +1,4 @@
-package utils.dto;
+package com.crud.oracle.demoapp.utils.dto;
 
 import lombok.Builder;
 

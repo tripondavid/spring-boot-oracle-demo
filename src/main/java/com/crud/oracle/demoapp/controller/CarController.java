@@ -6,9 +6,9 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import utils.converter.CarDtoConverter;
-import utils.dto.CarDto;
-import utils.dto.requests.AddCarDto;
+import com.crud.oracle.demoapp.utils.converter.CarDtoConverter;
+import com.crud.oracle.demoapp.utils.dto.CarDto;
+import com.crud.oracle.demoapp.utils.dto.requests.AddCarDto;
 
 import java.util.List;
 

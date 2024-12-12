@@ -8,9 +8,9 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
-import utils.converter.CarModelDtoConverter;
-import utils.dto.CarModelDto;
-import utils.dto.requests.AddCarModelDto;
+import com.crud.oracle.demoapp.utils.converter.CarModelDtoConverter;
+import com.crud.oracle.demoapp.utils.dto.CarModelDto;
+import com.crud.oracle.demoapp.utils.dto.requests.AddCarModelDto;
 
 import java.util.List;
 

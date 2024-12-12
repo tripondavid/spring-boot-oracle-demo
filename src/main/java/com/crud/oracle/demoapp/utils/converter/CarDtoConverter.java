@@ -1,9 +1,9 @@
-package utils.converter;
+package com.crud.oracle.demoapp.utils.converter;
 
 import com.crud.oracle.demoapp.model.Car;
+import com.crud.oracle.demoapp.utils.dto.requests.AddCarDto;
 import org.springframework.stereotype.Component;
-import utils.dto.CarDto;
-import utils.dto.requests.AddCarDto;
+import com.crud.oracle.demoapp.utils.dto.CarDto;
 
 @Component
 public class CarDtoConverter {

@@ -1,9 +1,9 @@
-package utils.converter;
+package com.crud.oracle.demoapp.utils.converter;
 
 import com.crud.oracle.demoapp.model.Manufacturer;
+import com.crud.oracle.demoapp.utils.dto.requests.AddManufacturerDto;
 import org.springframework.stereotype.Component;
-import utils.dto.ManufacturerDto;
-import utils.dto.requests.AddManufacturerDto;
+import com.crud.oracle.demoapp.utils.dto.ManufacturerDto;
 
 @Component
 public class ManufacturerDtoConverter {
